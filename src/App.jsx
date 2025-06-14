@@ -1,3 +1,5 @@
+// A simple React application that interacts with a chatbot API to send and receive messages.
+
 import { Fragment, useState } from "react";
 import "./App.css";
 import axios from "axios";

@@ -32,7 +32,7 @@ function App() {
           reply: res.data.data.botReply,
         },
       ]);
-      setInput(""); // Clear input after is
+      setInput("");
     } catch (error) {
       console.error("Error:", error);
       if (error.response) {
